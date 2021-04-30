@@ -21,19 +21,9 @@ PessoaMaior(pessoas)
 
 function PessoaMaior(pessoas){
     ordenarPessoas(pessoas)
-    console.log(` La pessoa com maior idade é  ${pessoas[0].nome}, idade:${pessoas[0].idade}`)
+    console.log(` La pessoa com maior idade é  ${pessoas[0].nome} e tem ${pessoas[0].idade} anos`)
 }
 
-// for(pessoa of pessoas){
-
-//     pessoa.prototype.imprimir=function(){
-//         console.log(`nome da pessoa ${this.nome}`)
-//     }
-    
-// }
-
-
-// console.log(pessoas)
 
 function pessoa(nome, idade){
     this.nome = nome
